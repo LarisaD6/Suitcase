@@ -31,9 +31,39 @@
                     <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+79497113933">+79497113933</a>
                 </div>
                 <div>
-                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
                     <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.dzen.ru/" target="_blank"><i class="fab fa-dzen fa-sm fa-fw"></i></a>
+					<!DOCTYPE html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <div class="container">
+        <h2>Регистрация</h2>
+        <form action="register.php" method="post">
+            <div class="form-group">
+                <label for="username">Ваше имя:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Подтвердите пароль:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+
                 </div>
             </div>
         </div>
@@ -117,11 +147,11 @@
 
 
     <!-- Start Banner Hero -->
-    <div id="template-mo-саквояж-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-саквояж-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-саквояж-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-саквояж-hero-carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -135,7 +165,7 @@
                                 <h1 class="h1 text-success"><b>Саквояж</b> Рассвет Прибой</h1>
                                 <h3 class="h2">Tiny and Perfect eCommerce</h3>
                                 <p>
-                                    Саквояж Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
+                                    Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
                                     This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
                                     Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
                                     <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
@@ -377,6 +407,9 @@
                             <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
                             <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
                         </li>
                         <li class="list-inline-item border border-light rounded-circle text-center">
@@ -400,7 +433,7 @@
                     <div class="col-12">
                         <p class="text-left text-light">
                             Copyright &copy; 2021 Company Name 
-                           
+                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
                         </p>
                     </div>
                 </div>
@@ -408,6 +441,7 @@
         </div>
 
     </footer>
+    <!-- End Footer -->
 
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
